@@ -12,14 +12,21 @@ ul{
 ul li{
 
     list-style: none;
-    width: 500px;
+    width: 50px;
     height: 20px;
     background-color: yellow;
     border: 3px solid red;
+    float: left;
    
 }
 
 ul li a{
-    float: left;
+   
     text-decoration: none;
+}
+
+
+ul li a:hover{
+    background-color: black;
+    color: white;
 }
